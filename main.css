@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; /* Set to pure white */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #29a5f8; /* Light blue on hover */
+  }
+  
+  .navbar .left {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .navbar .right {
+    display: flex;
+  }
+  
+  .bg1{
+    background-image: linear-gradient(rgb(255, 248, 234),white);
+    height: 100vh;
+    background-size: cover;
+  }
+  /* Container for the split layout */
+.split-layout {
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+/* Left half: white background */
+.white-half {
+  flex: 1;
+  background-color: white;
+}
+
+/* Right half: light biscuit background */
+.biscuit-half {
+  flex: 1;
+  background-color: #F5DEB3; /* Light biscuit color */
+}
+
+/* Centered card */
+.center-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(251, 247, 247);
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.center-card h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.center-card p {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Container for the split layout */
+.split-layout {
+    display: flex;
+    height: 100vh;
+    position: relative;
+  }
+  
+  /* Left section: 30vw */
+  .left-section {
+    width: 38vw;
+    background-color: #F5DEB3;
+  }
+  
+  /* Right section: 70vw */
+  .right-section {
+    width: 60vw;
+    background-color:white; /* Light biscuit color */
+  }
+  .center-card {
+    position: absolute;
+    top: 50%;
+    left: 35%; /* Adjust for slight left alignment */
+    transform: translate(-40%, -50%);
+    background-color: #fcf3cf;
+    padding: 30px 40px; /* Increased padding */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* More pronounced shadow for larger card */
+    text-align: center;
+    width: 400px; /* Increased width */
+    height: 60vh;
+  }
+  
+  .profile-image {
+    width: 120px; /* Larger image */
+    height: 120px; /* Larger image */
+    border-radius: 50%; /* Keeps the image round */
+    object-fit: cover;
+    margin-bottom: 20px; /* More space below the image */
+  }
+  
+  .center-card h2 {
+    margin: 0 0 10px; /* More space below the name */
+    font-size: 28px; /* Larger font for the name */
+    color: #333;
+  }
+  
+  .center-card p {
+    margin: 0;
+    font-size: 18px; /* Larger font for the role */
+    color: #555;
+  }
+  h2{
+    font-weight: bold;
+  }
+  h2:hover
+  {
+text-decoration: underline;
+  }
+  .ali
+  {
+    margin-top: 180px;
+    margin-left: 250px;
+  }
+  /* Main container for split layout */
+.split-layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Left section: 30vw */
+  .left-section {
+    width: 40vw;
+    background-color: #F5DEB3;;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the card vertically and horizontally */
+  }
+  
+  /* Right section: 70vw */
+  .right-section {
+    width: 70vw;
+    background-color: white /* Light biscuit color */
+  }
+  
+  /* Centered card */
+  .center-card {
+    background-color: wheat;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    width: 350px;
+    text-align: center;
+  }
+  
+  /* Profile details container */
+  .profile-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Profile image */
+  .profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  /* Text details */
+  .text-details h2 {
+    margin: 0 0 5px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .text-details p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Social links container */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+  }
+  
+  .social-icon {
+    color: #555;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #0077b5; /* LinkedIn blue or another hover color */
+  }
+  

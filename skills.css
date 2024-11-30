@@ -1,0 +1,95 @@
+/* General Page Background */
+.skills-page {
+  background: linear-gradient(135deg, #ffffff, #f0f4f8);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Skills Section Title */
+.skills-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #222;
+}
+
+.skills-description {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Skill Cards */
+.skill-card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.skill-icon {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.skill-card h5 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Progress Bar Customization */
+.progress-bar {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.progress {
+  height: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; /* Set to pure white */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #29a5f8; /* Light blue on hover */
+  }
+  
+  .navbar .left {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .navbar .right {
+    display: flex;
+  }
+  
