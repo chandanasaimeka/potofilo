@@ -1,0 +1,51 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0077b5;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .project-header {
+    background-color: #f5deb3;
+  }
+  
+  .project-header h1 {
+    font-size: 36px;
+  }
+  
+  .container ul {
+    padding-left: 20px;
+  }
+  
+  .container ul li {
+    margin-bottom: 10px;
+  }
+  
+  .carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  .footer {
+    background-color: #333;
+  }
+  
